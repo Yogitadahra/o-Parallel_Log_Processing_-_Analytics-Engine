@@ -1,0 +1,22 @@
+========================================
+   PARALLEL LOG PROCESSING — REPORT
+========================================
+
+--- Severity Breakdown ---
+  INFO     : 25000
+  WARNING  : 25000
+  ERROR    : 25000
+  CRITICAL : 25000
+  TOTAL    : 100000
+
+--- Anomaly / Pattern Hits ---
+  failed          : 10000
+  unauthorized    : 0
+  attack          : 10000
+  denied          : 10000
+  timeout         : 10000
+
+--- Speed Benchmark ---
+  Sequential time : 0.0200 seconds
+  Parallel time   : 0.0400 seconds
+  Speedup factor  : 0.50x
